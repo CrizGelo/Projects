@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mai.Artea|| Website</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+    <link rel="icon" href="images/bgicon.jpg">
+</head>
+<body>
+  
+  <nav role="navigation">
+    <div id="menuToggle">
+      <!--
+      A fake / hidden checkbox is used as click reciever,
+      so you can use the :checked selector on it.
+      -->
+      <input type="checkbox" />
+      
+      <!--
+      Some spans to act as a hamburger.
+      
+      They are acting like a real hamburger,
+      not that McDonalds stuff.
+      -->
+      <span></span>
+      <span></span>
+      <span></span>
+      
+      <!--
+      Too bad the menu has to be inside of the button
+      but hey, it's pure CSS magic.
+      -->
+      <ul id="menu">
+        <li onclick="topFunction()">Home</li>
+        <li onclick="viewProduct()">Product</li>
+        <li onclick="viewReviews()">Reviews</li>
+        <li onclick="viewAbout()">About Us</li>
+      </ul>
+    </div>
+  </nav>
+
+  
+      <img src="images/logo.jpg" class="brand-logo" >
+
+
+        <!-- Content Home Page -->
+        <section class="main-section">
+          <img src="images/mainImage.JPG" class="mainImage" >
+            
+        <div class="page-tittle">
+            <h1 class="brand-descrip">Mai.Artea</h1>
+            <p class="brand-descrip">Milktea - Froppe - Foodhub</p>
+            <p class="brand-history">Mai.Artea is owned by Maiqui Denice <br> Claros, a woman who was determined to <br> seek opportunities to claim big time  <br> success.she open this shop because <br> she loves foods and enjoys <br>  experimenting about it. Mai.Artea-Barugo <br> was registered last August 04, 2020 <br> and was able to open their shop last <br> October 21,2020.</p>
+        </div>
+        </section>
+  
+
+        
+      <!-- Navbar -->
+      <div id="navbar" >
+        <div class="nav-list">
+            <li onclick="topFunction()">Home</li>
+            <li onclick="viewProduct()">Product</li>
+            <li onclick="viewReviews()">Reviews</li>
+            <li onclick="viewAbout()">About Us</li>
+          </div>
+      </div>
+    
+      
+
+
+   <!-- Products -->
+   <section class="product-section" id="brandLogo">
+    <h1 class="products-tittle" id="tittle">Products</h1>
+
+    <div class="products-container">
+      <img src="images/products/p1.jpg" class="product-img">
+      <img src="images/products/p2.jpg" class="product-img">
+      <img src="images/products/p3.jpg"class="product-img">
+      <img src="images/products/p4.jpg"  class="product-img">
+      <img src="images/products/p5.jpg" class="product-img">
+      <img src="images/products/p6.jpg" class="product-img">
+    </div>
+
+ 
+
+   </section>
+    
+
+   <!-- Reviews -->
+   
+   <section class="reviews-section" id="reviews">
+    <div class="review-desc">
+    <h1 class="reviews-tittle">REVIEWS</h1>
+    <p class="feedback-reviews">
+      Reviews from our Customers
+    </p>
+  </div>
+  <div class="reviews-images">
+    <img src="images/reviews/r1.png" class="r1" >
+    <img src="images/reviews/r2.png" class="r1">
+    <img src="images/reviews/r3.png" class="r1">
+    <img src="images/reviews/r4.png" class="r1">
+    <img src="images/reviews/r5.png" class="r2">
+  </div>
+  <div class="aboutUS">
+
+   <div class="info-contianer">
+    <h1 class="aboutus">About US</h1>
+    <p class="information"> Location: <br> Barugo, Philippines, 6519
+      Address </p>
+      <p class="information"> Service Area: <br>
+        San Miguel, Philippines · Carigara, Philippines · Tunga, Philippines · Barugo, Philippines
+        Service Area </p>
+        <p class="information"> 
+          Dine-in · Outdoor seating
+          Services</p>
+  </div>
+  <div class="contact-contianer" id="aboutus">
+    <h1 class="contact">Contact</h1>
+    <p class="information"> Mobile Number: 0915 058 5321</p>
+      <p class="information"> Visit Our Facebook Page: https://www.facebook.com/maarteahub</p>
+       
+  </div>
+</div> 
+   </section>
+  
+
+</body>
+</html>
